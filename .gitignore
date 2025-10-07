@@ -1,0 +1,52 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+# --- React / Node ---
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules/
+bower_components/
+build/
+coverage/
+
+.env
+.env.local
+.env.*.local
+
+# --- Editor (VSCode) ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+.ionide
+
+# --- Design Files ---
+*.sublime*
+psd
+thumb
+sketch
