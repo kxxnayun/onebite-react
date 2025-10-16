@@ -1,12 +1,10 @@
 import "./App.css";
-import Burb from "./components/Burb";
-import Counter from "./components/Counter";
+import Register from "./components/Register";
 
 function App() {
   return (
     <>
-      <Burb />
-      <Counter />
+      <Register />
     </>
   );
 }
