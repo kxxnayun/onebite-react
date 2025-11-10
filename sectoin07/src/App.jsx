@@ -47,11 +47,10 @@ function App() {
         ></input>
       </section>
 
-      <section className="flex mt-4 p-4 justify-center container max-w-3xl mx-auto bg-gray-200 rounded-lg">
+      <section className="flex flex-col mt-4 p-4 items-center justify-center container max-w-3xl mx-auto bg-gray-200 rounded-lg">
         <Viewer count={count} />
         {count % 2 === 0 ? <Even /> : null}
       </section>
-
       <section className="flex mt-4 p-4 justify-center container max-w-3xl mx-auto bg-gray-200 rounded-lg">
         <Controller onClickButton={onClickButton} />
       </section>
